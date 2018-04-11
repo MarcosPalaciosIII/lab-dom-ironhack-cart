@@ -1,7 +1,6 @@
 input {
   border: solid 1px black;
 }
-
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -23,19 +22,44 @@ input {
   border: 1px solid transparent;
   border-radius: 4px;
 }
-
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
-
 .btn-delete {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
 }
-
 .quantity {
   margin: 0 5px;
+}
+h1 {
+  text-align: center;
+}
+.productWrapper {
+}
+.ulContainer li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+.calc-prices-container {
+  display: flex;
+  justify-content: center;
+}
+#calc-prices-button {
+  border: 3px double #78BEFF;
+  background-color: #20BC54;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.price-total {
+  font-size: 35px;
+  float: right;
+  weight: 100px;
+  padding-right: 90px;
 }
